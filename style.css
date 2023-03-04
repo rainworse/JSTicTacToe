@@ -1,0 +1,45 @@
+html,
+body,
+.game {
+  height: 100%;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#controller {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 20px;
+}
+
+#game-board-container {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.cell {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(253, 255, 239);
+  border: 2px black solid;
+  border-radius: 70px;
+  box-shadow: 5px 5px 5px rgb(158, 158, 158);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+}
+
+#outcome {
+  height: 50px;
+  font-size: 40px;
+}

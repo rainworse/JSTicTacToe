@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>TicTacToe</title>
+  </head>
+  <body>
+    <div class="game">
+      <div id="controller">
+        <label for="player1-name"
+          >Player1 name: <input type="text" id="player1-name"
+        /></label>
+        <label for="player2-name"
+          >Player2 name: <input type="text" id="player2-name"
+        /></label>
+        <button id="start-new-game">Start New Game</button>
+      </div>
+      <div id="game-board-container">
+        <div id="top-left" class="cell"></div>
+        <div id="top-middle" class="cell"></div>
+        <div id="top-right" class="cell"></div>
+        <div id="middle-left" class="cell"></div>
+        <div id="middle-middle" class="cell"></div>
+        <div id="middle-right" class="cell"></div>
+        <div id="bottom-left" class="cell"></div>
+        <div id="bottom-middle" class="cell"></div>
+        <div id="bottom-right" class="cell"></div>
+      </div>
+      <div id="outcome"></div>
+    </div>
+    <script src="tictactoe.js"></script>
+  </body>
+</html>
